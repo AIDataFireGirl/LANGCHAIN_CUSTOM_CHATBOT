@@ -1,0 +1,15 @@
+# OpenAI API Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Chatbot Configuration
+CHATBOT_NAME=MemoryBot
+CHATBOT_PERSONALITY=You are a helpful AI assistant with memory capabilities. You remember conversations and provide contextual responses.
+
+# Memory Configuration
+MEMORY_MAX_TOKENS=2000
+MEMORY_RETURN_MESSAGES=True
+
+# Security Configuration
+MAX_INPUT_LENGTH=1000
+ALLOWED_FILE_TYPES=txt,pdf,doc,docx
+MAX_FILE_SIZE_MB=10 
